@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<script>
+safari.application.addEventListener("command", performCommand, false);
+safari.application.addEventListener("validate", validateCommand, false);
+
+function performCommand(event)
+{
+	// You should always check the command.
+	if (event.command !== "viewBG") return;
+	
+	event.currentTarget.activeBrowserWindow.openTab().url = event.userInfo.bg;
+}
+
+function validateCommand(event)
+{
+	// You should always check the command.
+	if (event.command !== "viewBG") return;
+
+	event.target.disabled = !event.userInfo.bg;
+}
+</script>

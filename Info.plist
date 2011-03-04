@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Matt Sephton</string>
+	<key>CFBundleDisplayName</key>
+	<string>View Background Image</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.gingerbeardman.safari.viewbackgroundimage</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Context Menu Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>viewBG</string>
+				<key>Identifier</key>
+				<string>view-background-image</string>
+				<key>Title</key>
+				<string>View Background Image</string>
+			</dict>
+		</array>
+		<key>Global Page</key>
+		<string>Global.html</string>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>viewbackgroundimage.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Right click on an element to View Background Image</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://www.gingerbeardman.com/safari/update.xml</string>
+	<key>Website</key>
+	<string>http://www.gingerbeardman.com/safari/</string>
+</dict>
+</plist>
