@@ -2,7 +2,11 @@ window.addEventListener("contextmenu", handleContextMenu, false);
 
 function handleContextMenu(event)
 {
-	var element = document.getElementById(event.target.id);
+	var element = document.body;
+	if (event.target.nodeName != "HTML") {
+		element = event.target;
+	}
+
 	var style = window.getComputedStyle(element, false);
 	var image = '';
 	if (style) image = style.backgroundImage.slice(4, -1);

@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Matt Sephton</string>
 	<key>Builder Version</key>
-	<string>8536.25</string>
+	<string>11601.3.9</string>
 	<key>CFBundleDisplayName</key>
 	<string>View Background Image</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.01</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
-	<string>1.01</string>
+	<string>1.2</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Context Menu Items</key>
@@ -44,6 +44,8 @@
 	</dict>
 	<key>Description</key>
 	<string>Right click on an element to View Background Image</string>
+	<key>DeveloperIdentifier</key>
+	<string>Q3Z639YB49</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
