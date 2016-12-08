@@ -1,0 +1,8 @@
+/* instragram: hide the div overlay that prevents you clicking directly on the main image */
+
+/* dedicated page, popup */
+#react-root > section > main > div > div > article > div:nth-child(2) > div > div:last-child,
+body > div:nth-child(9) > div > div._g1ax7 > div > article > div:nth-child(2) > div > div:last-child
+{
+	display: none !important;
+}
