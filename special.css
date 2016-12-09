@@ -1,8 +1,9 @@
 /* instragram: hide the div overlay that prevents you clicking directly on the main image */
 
-/* dedicated page, popup */
-#react-root > section > main > div > div > article > div:nth-child(2) > div > div:last-child,
-body > div:nth-child(9) > div > div._g1ax7 > div > article > div:nth-child(2) > div > div:last-child
+/* main feed, photo page, profile popup (no profile feed) */
+#react-root > section > main > section > div > div:nth-child(1) > article:nth-child(2) > div:nth-child(2) > div > div:last-child,
+#react-root > section > main > div > div > article > div div > div:last-child,
+body > div:nth-child(9) > div > div:nth-child(2) > div > article > div:nth-child(2) > div > div:last-child
 {
 	display: none !important;
 }

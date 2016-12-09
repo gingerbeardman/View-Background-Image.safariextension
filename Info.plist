@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Matt Sephton</string>
 	<key>Builder Version</key>
-	<string>12602.2.14.0.7</string>
+	<string>12603.1.14.2</string>
 	<key>CFBundleDisplayName</key>
 	<string>View Background Image</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3</string>
+	<string>1.31</string>
 	<key>CFBundleVersion</key>
-	<string>1.3</string>
+	<string>1.31</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Context Menu Items</key>

@@ -7,7 +7,7 @@ Provides a contextual menu item allowing you to view – in a new tab – the ba
 [View Background Image.safariextz](http://www.gingerbeardman.com/safari/View%20Background%20Image.safariextz)
 
 ###Changelog
-2016-12-08, added support for removing overlays on instagram (1.3)  
+2016-12-09, added support for removing overlays on instagram (1.31)  
 2016-01-02, updated with change from [Adam Nolley](http://nanovivid.com) - thanks! (1.2)  
 2013-05-09, github release (1.01)  
 2012-07-20, inital release (1.01)  
